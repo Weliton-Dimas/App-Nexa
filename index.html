@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- TODO: Set the document title to the name of your application -->
+    <title>Nexa Ads App</title>
+    <meta name="description" content="Gestão Operacional">
+    <meta name="author" content="Lovable" />
+
+    <!-- TODO: Update og:title to match your application name -->
+    
+    
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://storage.googleapis.com/gpt-engineer-file-uploads/grFvGkKa8qP3TCTV8NtLvpdOqn03/social-images/social-1778263301021-WhatsApp_Image_2026-05-05_at_00.00.58_(1).webp">
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@Lovable" />
+    <meta name="twitter:image" content="https://storage.googleapis.com/gpt-engineer-file-uploads/grFvGkKa8qP3TCTV8NtLvpdOqn03/social-images/social-1778263301021-WhatsApp_Image_2026-05-05_at_00.00.58_(1).webp">
+    
+  
+  
+  
+  <meta property="og:title" content="Nexa Ads App">
+  <meta name="twitter:title" content="Nexa Ads App">
+  <meta property="og:description" content="Gestão Operacional">
+  <meta name="twitter:description" content="Gestão Operacional">
+</head>
+
+  <body>
+    <script>
+      try {
+        var c = localStorage.getItem("app-branding-cache");
+        if (c) {
+          var b = JSON.parse(c);
+          if (b && b.app_name) document.title = b.app_name;
+          if (b && b.favicon_url) {
+            var l = document.querySelector("link[rel~='icon']");
+            if (!l) { l = document.createElement("link"); l.rel = "icon"; document.head.appendChild(l); }
+            l.href = b.favicon_url;
+          }
+        }
+      } catch (e) {}
+    </script>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
